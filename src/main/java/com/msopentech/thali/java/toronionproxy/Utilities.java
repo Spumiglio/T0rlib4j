@@ -15,7 +15,7 @@ import java.net.SocketAddress;
 import java.nio.ByteBuffer;
 
 public class Utilities {
-    private static int READ_TIMEOUT_MILLISECONDS;
+    private static int READ_TIMEOUT_MILLISECONDS = 30000;
     private static final int CONNECT_TIMEOUT_MILLISECONDS = 60000;
     private static final Logger LOG = LoggerFactory.getLogger(Utilities.class);
 
